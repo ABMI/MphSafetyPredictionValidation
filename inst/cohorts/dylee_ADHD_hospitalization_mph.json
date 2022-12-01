@@ -1,0 +1,383 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 438409,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "406506008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Attention deficit hyperactivity disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4047120,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "229712006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Disorders of attention and motor control",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "ADHD",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4088889,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "18512000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Individual psychotherapy",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Procedure",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "individual psychotherapy",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "inpatient",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45887951,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1021137",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Psychotherapy Services and Procedures",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "CPT4 Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4327941,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75516001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psychotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2795675,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "GZ5",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Mental Health, Individual Psychotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2795842,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "GZB",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Mental Health, Electroconvulsive Therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4030840,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "23835007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Electroconvulsive therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]psychiatry procedure",
+      "id": 4
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "ADHD diagnosis",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 4,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "individual psychotherapy",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 14,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"VisitOccurrence": {
+            "OccurrenceEndDate": null,
+            "VisitLength": null,
+            "CorrelatedCriteria": null,
+            "VisitSourceConcept": null,
+            "CodesetId": 3,
+            "VisitTypeExclude": false,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "PlaceOfServiceLocation": null,
+            "PlaceOfService": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "washout",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"VisitOccurrence": {
+      "OccurrenceEndDate": null,
+      "VisitLength": null,
+      "CorrelatedCriteria": null,
+      "VisitSourceConcept": null,
+      "CodesetId": 3,
+      "VisitTypeExclude": false,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "PlaceOfServiceLocation": null,
+      "PlaceOfService": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

@@ -1,0 +1,29 @@
+Package: MphSafetyPredictionValidation
+Type: Package
+Title: Add the title of the package here
+Version: 2.0.2
+Date: 2022-02-16
+Author: your name [aut]
+Maintainer: your name <youremail@address>
+Description: Write your study package description here.
+License: Apache License 2.0
+Depends:
+  R (>= 3.3.0)
+Imports:
+  CohortGenerator,
+  DatabaseConnector (>= 5.0.0),
+  dplyr,
+  jsonlite,
+  OhdsiSharing,
+  ParallelLogger (>= 2.0.0),
+  PatientLevelPrediction (>= 5.0.0),
+  rlang,
+  utils
+Suggests:
+  testthat
+Remotes:
+    ohdsi/CohortGenerator,
+    ohdsi/OhdsiSharing,
+    ohdsi/PatientLevelPrediction
+NeedsCompilation: no
+RoxygenNote: 7.1.1

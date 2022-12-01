@@ -1,0 +1,1524 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4030840,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "23835007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Electroconvulsive therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2795842,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "GZB",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Mental Health, Electroconvulsive Therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2795675,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "GZ5",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Mental Health, Individual Psychotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4327941,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75516001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psychotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45887951,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1021137",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Psychotherapy Services and Procedures",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "CPT4 Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[legend]psychiatry procedure",
+      "id": 11
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 21604686,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "N06A",
+          "VOCABULARY_ID": "ATC",
+          "CONCEPT_NAME": "ANTIDEPRESSANTS",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "ATC 3rd",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[SHJin] ANTIDEPRESSANTS",
+      "id": 21
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 442306,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "57194009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Adjustment disorder with depressed mood",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436665,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "13746004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bipolar disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 438407,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "78004001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bulimia nervosa",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4311708,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "424736006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Diabetic peripheral neuropathy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 434613,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21897009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Generalized anxiety disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436962,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "193462001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Insomnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440374,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "191736004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Obsessive-compulsive disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4175329,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42594001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Organic mood disorder of depressed type",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436074,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "371631005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Panic disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4242733,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Premenstrual dysphoric disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440690,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25501002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Social phobia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[legend]other indications for drugs",
+      "id": 22
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 442306,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "57194009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Adjustment disorder with depressed mood",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436665,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "13746004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bipolar disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440383,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "35489007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Depressive disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4175329,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42594001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Organic mood disorder of depressed type",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[legend]depression",
+      "id": 23
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 442077,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "197480006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Anxiety disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37109206,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22621000119103",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Anxiety disorder caused by drug",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4199892,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "52910006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Anxiety disorder due to a general medical condition",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 434613,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21897009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Generalized anxiety disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4338031,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "231504006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mixed anxiety and depressive disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 381537,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "17496003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Organic anxiety disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436074,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "371631005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Panic disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4304010,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "386810004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Phobic disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]anxiety disorder",
+      "id": 24
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 781039,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alprazolam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 733301,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1827",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "buspirone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 990678,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2356",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "chlordiazepoxide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 797617,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2556",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "citalopram",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19050832,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21241",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "clobazam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 798874,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2598",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "clonazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 790253,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2353",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "clorazepate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 717607,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "734064",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "desvenlafaxine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 723013,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3322",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "diazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 739323,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3648",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "droperidol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715259,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72625",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "duloxetine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715939,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "321988",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "escitalopram",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 755695,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4493",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluoxetine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 751412,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42355",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvoxamine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 777221,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5553",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydroxyzine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 791967,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6470",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lorazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 702865,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6760",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "meprobamate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 724816,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7781",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "oxazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 722031,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32937",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "paroxetine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 739138,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36437",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sertraline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 743670,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "39786",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "venlafaxine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee] drugs to treat anxiety",
+      "id": 25
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436962,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "193462001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Insomnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4102985,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "192454004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Nonorganic insomnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439708,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "194437008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Disorders of initiating and maintaining sleep",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 374905,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "270487001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Non-organic sleep disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 435524,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "39898005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Sleep disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4009650,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "111489007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Breathing-related sleep disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 442588,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "78275009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Obstructive sleep apnea syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 313459,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73430006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Sleep apnea",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 437854,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "193042000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cataplexy and narcolepsy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]sleep disorder",
+      "id": 26
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 781039,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alprazolam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 733301,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1827",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "buspirone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 798874,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2598",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "clonazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 723013,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3322",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "diazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 791967,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6470",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lorazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 724816,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7781",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "oxazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 744740,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "39993",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "zolpidem",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 756349,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4501",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "flurazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 704599,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10767",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "triazolam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19055224,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4460",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "flunitrazepam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 703547,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10737",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "trazodone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 725131,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "15996",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "mirtazapine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 710062,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "704",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amitriptyline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 738156,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3638",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "doxepin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40254475,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "R06AA59",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "doxylamine, combinations; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1129625,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3498",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "diphenhydramine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603454,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "R06AA52",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "diphenhydramine, combinations; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1301152,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6711",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "melatonin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 766814,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "51272",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "quetiapine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 785788,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "61381",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "olanzapine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee] drugs to treat sleep disorder",
+      "id": 27
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": null,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"DrugExposure": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "DrugSourceConcept": null,
+          "CodesetId": 27,
+          "DrugTypeExclude": false,
+          "Quantity": null,
+          "DrugType": null,
+          "ProviderSpecialty": null,
+          "EffectiveDrugDose": null,
+          "Gender": null,
+          "DaysSupply": null,
+          "DoseUnit": null,
+          "VisitType": null,
+          "Refills": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RouteConcept": null,
+          "StopReason": null,
+          "LotNumber": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 2
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": null,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"ProcedureOccurrence": {
+          "ProcedureType": null,
+          "CorrelatedCriteria": null,
+          "CodesetId": 11,
+          "ProcedureSourceConcept": null,
+          "Quantity": null,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "ProcedureTypeExclude": false,
+          "VisitType": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "Modifier": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 2
+        }
+      }
+    ],
+    "Type": "ANY",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 26,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": true,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4333677,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "231494001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mania",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35610112,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1089681000000108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mania with psychotic features",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4153292,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "271428004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Schizoaffective disorder, manic type",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439256,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "191623007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bipolar affective disorder, currently manic, severe, with psychosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440078,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "191618007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bipolar affective disorder, current episode manic",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4150985,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "31446002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bipolar I disorder, most recent episode hypomanic",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "mania",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604422,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "N03AG01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "valproic acid; systemic, rectal",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 745466,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "40254",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "valproate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604555,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "N05AN",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Lithium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 751246,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42351",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lithium carbonate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 705103,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "28439",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lamotrigine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604431,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "N03AX09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lamotrigine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 740275,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2002",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "carbamazepine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604417,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "N03AF01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "carbamazepine; oral, rectal",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 600000004,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "600000004",
+            "VOCABULARY_ID": "Cohort",
+            "CONCEPT_NAME": "OMOP Antiepileptics: Carbamazepine, Phenytoin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Cohort",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]mood_stabilizer",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45887951,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1021137",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Psychotherapy Services and Procedures",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "CPT4 Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4327941,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75516001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psychotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2795675,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "GZ5",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Mental Health, Individual Psychotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2795842,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "GZB",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Mental Health, Electroconvulsive Therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4030840,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "23835007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Electroconvulsive therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]psychiatry procedure",
+      "id": 2
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 381839,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "568005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Tic disorder",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[JMPark] tic disorder",
+      "id": 3
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 21604490,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "N05A",
+          "VOCABULARY_ID": "ATC",
+          "CONCEPT_NAME": "ANTIPSYCHOTICS",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "ATC 3rd",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[dylee]antipsychotics",
+      "id": 4
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": null,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"DrugExposure": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "DrugSourceConcept": null,
+          "CodesetId": 4,
+          "DrugTypeExclude": false,
+          "Quantity": null,
+          "DrugType": null,
+          "ProviderSpecialty": null,
+          "EffectiveDrugDose": null,
+          "Gender": null,
+          "DaysSupply": null,
+          "DoseUnit": null,
+          "VisitType": null,
+          "Refills": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RouteConcept": null,
+          "StopReason": null,
+          "LotNumber": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 2
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": null,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"ProcedureOccurrence": {
+          "ProcedureType": null,
+          "CorrelatedCriteria": null,
+          "CodesetId": 2,
+          "ProcedureSourceConcept": null,
+          "Quantity": null,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "ProcedureTypeExclude": false,
+          "VisitType": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "Modifier": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 2
+        }
+      }
+    ],
+    "Type": "ANY",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 3,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": true,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

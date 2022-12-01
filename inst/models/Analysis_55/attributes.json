@@ -1,0 +1,1 @@
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["class","predictionFunction","modelType","saveType"]}},"value":[{"type":"character","attributes":{},"value":["plpModel"]},{"type":"character","attributes":{},"value":["predictCyclops"]},{"type":"character","attributes":{},"value":["binary"]},{"type":"character","attributes":{},"value":["RtoJson"]}]}
